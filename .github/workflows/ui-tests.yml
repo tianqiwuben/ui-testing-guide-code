@@ -24,7 +24,7 @@ jobs:
         run: yarn
     
 # Run interaction and accessibility tests
-  interaction-and-accessibility:
+  ianda:
     runs-on: ubuntu-latest
     needs: install-cache
     steps:
